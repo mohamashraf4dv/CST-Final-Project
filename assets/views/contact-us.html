@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../../index.css">
+    <link rel="stylesheet" href="../../main.css">
+</head>
+<body>
+    <!-- repeatable header  -->
+    <div class="background-changer">
+        <div class="header">
+
+            <div class="logo-txt">
+                <img src="../images/logo.png" alt="logo" id="logo-img">
+                <a href="../../index.html" id="logo-name">FRUITS SHOP</a>
+            </div>
+    
+            <div class="nav-bar">
+    
+                <a href="../../index.html">Home</a>
+                <a href="./fruits.html">Fruits</a>
+                <a href="./services.html">Services</a>
+                <a href="./contact-us.html">Contact us</a>
+                <a href=""><img src="../images/search.png" alt="search"></a>
+    
+            </div>
+        </div>
+    
+        <!-- main content -->
+            <div class="our-services">
+                <div class="contact-us">
+                    <div>
+                        <div class="cont-img">
+                            <img src="../images/orange-dish.png" alt="orange-dish" id="orange-dish">
+                        </div>
+                        <h2>Contact us</h2>
+        
+                        <form action="https://httpbin.org/post" method="post">
+        
+                            <input type="text" placeholder="Name" name="name" class="contact-inp" required>
+                            <input type="text" placeholder="Phone Number" name="phoneNumber" class="contact-inp" pattern="[0-9]+ " required>
+                            <input type="email" placeholder="Email" name="email" class="contact-inp" required>
+                            
+                            <div class="mt-msg">
+                                <input type="text" placeholder="Message" name="message" class="contact-inp msg-input" required>
+                            </div>
+        
+                            <button type="submit" id="cont-send-btn">SEND</button>
+        
+                        </form>
+        
+                    </div>
+        
+        
+                </div>
+
+
+            </div>
+
+    <!-- repeatable footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-component">
+                <h4>Fruits</h4>
+                <p class="h4-p">
+                    there are many variations of passages of lorem ipsum available,
+                    but the majority have suffered alteration in some form , by injected humour, 
+                    or randomised words which don't look even slightly believable.
+                </p> 
+            </div>
+
+            <div class="footer-component">
+                <h4>Services</h4>
+                <p class="h4-p">
+                    there are many variations of passages of lorem ipsum available,
+                    but the majority have suffered alteration in some form , by injected humour, 
+                    or randomised words which don't look even slightly believable.
+                </p> 
+            </div>
+
+            <div class="footer-component">
+                <h4>List</h4>
+                <p class="h4-p">
+                    there are many variations of passages of lorem ipsum available,
+                    but the majority have suffered alteration in some form , by injected humour, 
+                    or randomised words which don't look even slightly believable.
+                </p> 
+            </div>
+
+            <div class="footer-component subscribtion">
+                <div class="followus-hcont">
+                    <h4>Follow Us</h4>
+                </div>
+                <div class="follow-us-imgcont">
+                    <img src="../images/fb.png" alt="facebook-icon">
+                    <img src="../images/twitter.png" alt="twitter">
+                    <img src="../images/linkedin.png" alt="linkedin-icon">
+                    <img src="../images/instagram.png" alt="instagram-icon">
+
+                    <div class="subform-section">
+                        <h4>Subscribe Now</h4>
+                        <form action="https://httpbin.org/post" method="post">
+                            <input type="email" name="subscribtionEmail" required>
+                            <div class="subscribe-btn-cont">
+                                <button type="submit" id="subscribeBtn">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="copy-container">
+            <p>Copyrights &#169; all are reserved</p>
+        </div>
+    </div>
+</body>
+</html>

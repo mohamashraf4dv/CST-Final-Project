@@ -1,0 +1,174 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* outline: 1px solid rgb(131, 131, 10); */
+}
+body{
+    background-color: white;
+}
+.header{
+    /* header container */
+    /* text-align: center; */
+    padding-top: 20px;
+}
+.logo-txt{
+    /* logo container */
+    display: inline-block;
+    padding:5px;
+    margin-left:200px;
+    /* margin-right: 700px; */   /*doing it the hard way (not preferable) we used float instead */
+}
+#logo-name{
+    display: inline-block;
+    text-decoration: none;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: Tahoma , 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#logo-img{
+    display: inline-block;
+    vertical-align: middle;
+    width:33px;
+    height:25px;
+}
+
+.nav-bar{
+float: right;
+margin-right:200px;   
+vertical-align: middle; 
+}
+.nav-bar>a{
+    text-decoration: none;
+    color: #656461;
+    font-size: 14px ;
+    margin-left:30px;
+    vertical-align:middle;
+    transition:0.3s;
+}
+
+.nav-bar>a:hover{
+    color:black;
+    font-weight: 900;
+    transform: scale(1.1);
+
+}
+.nav-bar>a>img{
+    height:18px;
+    transition: 0.3s;
+
+}
+
+img[alt="search"]:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+.center-mg{
+    margin:30px 200px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: white;
+}
+.container{
+    text-align: center;
+}
+h4{
+    font-size: 25px;
+    font-family: fantasy;
+    font-weight: 100;
+}
+.h4-p{
+    font-size: 16px;
+    width:170px;
+    margin-top: 30px;
+    /* width:00px */
+}
+.footer-component{
+    vertical-align: top;
+    display: inline-block;
+    max-width: 250px;
+    margin:30px;
+    word-wrap: break-word;
+    padding: 30px;
+    transition: 0.3s;
+
+}
+.subscribtion{
+    max-width: 500px;
+    margin-top:30px;
+}
+.followus-hcont{
+    margin-bottom: 30px;
+}
+.footer-component:hover{
+    transform: scale(1.1);
+
+}
+.follow-us-imgcont{
+    margin-top:30px;
+}
+.follow-us-imgcont>img{
+    width:30px;
+    height:30px
+
+}
+
+.subform-section{
+    margin-top: 20px;
+}
+.subscribe-btn-cont{
+    text-align:center
+
+}
+#subscribeBtn{
+    margin-top:20px;
+    background-color: #FF6C30;
+    color:white;
+    transition: 0.5s;
+}
+#subscribeBtn:hover{
+    background-color: white;
+    color:black;
+    border:2px solid black;
+    transform: scale(1.1);
+}
+.copy-container{
+    text-align: center;
+    padding:30px;
+    background-color: #EDEEEB;
+}
+.copy-container>p{
+    font-weight: bold;
+}
+
